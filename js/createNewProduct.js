@@ -17,7 +17,7 @@ let createTaskCard = () => {
     let createBreak = document.createElement('br');
 
     let card = document.createElement('div');
-    card.className = 'col-12 col-md-6 col-lg-4';
+    card.className = 'col-12 col-md-12 col-lg-4';
     //card.style = 'width: 18rem';
 
     let cardClass = document.createElement('div');
