@@ -11,6 +11,27 @@
 </head>
 <body>
     <div class="container" style="padding: 40px">
+      <div id="quote-loading" class="container">
+        <!-- <div> -->
+            <!-- Header -->
+            <!-- <div style="text-align: center;">
+                <span style="font-size: 30px;">  -->
+                    <!-- Spinner -->
+                    <!-- <span>
+                        <span class="spinner-border" role="status" style="font-size: 15px; margin-left: 8px;">
+                            <span class="visually-hidden">Loading...</span>
+                        </span>
+                    </span>
+                </span>
+            </div> -->
+      <div style="width: 600px; margin:0 auto; margin-top: 8px;">
+        <p id="insurance-tip" style="text-align: center; height: 75px;">
+            <script type="module">
+                import { renderTips } from "./js/renderTips.js";
+                renderTips();
+            </script>
+        </p>
+    </div>
         <br>
         <!-- <h1 style="text-align: left; padding: 50px"> 
             <img src="./images/yellow-icon.png" alt="icon" style="width: 80px; height: 80px; object-fit: contain; object-position: center center"> 
