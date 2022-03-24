@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid" style="text-align:center">
+        <img src="./images/yellow-icon.png" alt="icon" style="width: 50px; height: 50px; object-fit: contain; object-position: left left"> 
+        <br><br><br><br>
+        <div id="loader">
+            <div class="d-flex justify-content-center" style="height: 75px;">
+                <div class="spinner-border text-warning" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                 </div>
+                <div class="spinner-border text-warning" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-border text-warning" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-grow text-warning" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-grow text-warning" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-grow text-warning" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+            <h2 style="text-align:center">
+                <p class="fw-lighter"> ကြိုဆိုပါတယ် </p>
+                <small> <p class="fw-lighter"> Welcome </p> </small>
+            </h2>
+        </div>
+        <script type = "text/javascript">
+             setTimeout('document.getElementById("loader").style.display="none"', 1000);  // 5 seconds
+        </script>
+         <h2 style="text-align:center">
+            <p class="fw-lighter"> ဘာသာစကားရွေးချယ်ပါ </p>
+            <small> <p class="fw-lighter"> Choose your langauge</p> </small>
+        </h2>
+
+        <br><br>
+        <div class="dropdown">
+            <button class="btn btn-warning btn-sm dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Langauge
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">EN</a></li>
+              <li><a class="dropdown-item" href="#">MY</a></li>
+            </ul>
+        </div>
+        <div id="copyright-footer" class="container-fluid"> 
+            <br><br>
+            <div style="text-align: center; margin-bottom: 20px;" class="col">  📱 +95 9 501 5933 </div> 
+            <hr>
+            <div style="text-align: center;" class="col"> ©️2022 by Yellow </div> 
+        </div>
+</div>
+</body>
+</html>
