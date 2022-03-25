@@ -17,13 +17,13 @@ let createTaskCard = () => {
     let createBreak = document.createElement('br');
 
     let card = document.createElement('div');
-    card.className = 'col-12 col-md-12 col-lg-4';
-    //card.style = 'width: 18rem';
+    card.className = 'col-lg-4';//'col-12 col-md-12 col-lg-4';
+    card.style = 'margin-bottom: 10px;';
 
     let cardClass = document.createElement('div');
     //cardClass.clasName = 'card';
     cardClass.setAttribute('class', 'card');
-    cardClass.style = 'width: 18rem';
+    //cardClass.style = ': 15rem';
 
     let cardBody = document.createElement('div');
     cardBody.className = 'card-body';
