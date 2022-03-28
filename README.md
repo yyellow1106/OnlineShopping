@@ -1,2 +1,1 @@
 # OnlineShopping
-`view`: Englishg Version
