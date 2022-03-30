@@ -1,27 +1,27 @@
 export const renderTips = () => {
   const tips = [
       {
-          type: "Tip1",
+          type: "Product",
           tip: "🐼", 
       },
       {
-          type: "Tip2",
+          type: "Product",
           tip: "🟡",
       },
       {
-          type: "Tip3",
+          type: "Product",
           tip: "😊",
       },
       {
-          type: "Tip4",
+          type: "Product",
           tip: "😴",
       },
       {
-          type: "Tip5",
+          type: "Product",
           tip: "😴",
       },
       {
-          type: "Tip6",
+          type: "Product",
           tip: "😎"
       },  
     
